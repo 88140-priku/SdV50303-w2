@@ -35,3 +35,16 @@ msg.split(",")//["hello", " JavaScript!"]
 " hi ".trim()//"hi"
 console.log("The length of the message is: " + msg.length);
 console.log( msg.toUpperCase());
+
+const name1 = "prikshit";
+const age2 = 20;
+//old way - concatenation (error-prone)
+const msg1 = "Hello, " + name1 + "! You are " + age2 + " years old.";
+//new way - template literals (clean and readable)
+const msg2 = `Hello, ${name1}! You are ${age2} years old.`;
+//multi-line strings 
+const html = 
+'<div class="card"> <>h2>Title</h2> <p>Content</p> </div>';
+//Any expression works inside ${}
+const total = `price: ${(12.99 * 3).toFixed(2)}`;
+console.log("The length of the message is: "+ msg2.length);
