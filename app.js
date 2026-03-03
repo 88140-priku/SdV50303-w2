@@ -73,4 +73,4 @@ switch (day) {
 }   
 
 //ANCHOR - falsy values
-False | 0 | "" (empty string) | null | undefined | NaN
+False | 0 | ""  | null | undefined | NaN
