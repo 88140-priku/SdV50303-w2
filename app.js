@@ -71,3 +71,6 @@ switch (day) {
     default:
         console.log("Midweek");
 }   
+
+//ANCHOR - falsy values
+False | 0 | "" (empty string) | null | undefined | NaN
