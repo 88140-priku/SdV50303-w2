@@ -23,3 +23,13 @@ console.log("typeof homeAddress: ");
 true && true//true true && false//false false || true//true !false//true
 //assignment
 let x= 10; x+=5;//15 x-=2;//13 x *=2;//26
+const msg= "hello, JavaScript!";
+msg.length  //18
+msg.toUpperCase()//"HELLO, JAVASCRIPT!"  
+msg.toLowerCase()//"hello, javascript!"
+msg.includes("Java")//true
+msg.indexOf("Java")//7
+msg.slice(0,5)//"hello"
+msg.replace("JavaScript","JS")//"hello, JS!"
+msg.split(",")//["hello", " JavaScript!"]
+" hi ".trim()//"hi"
