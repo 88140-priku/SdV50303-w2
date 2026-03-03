@@ -33,3 +33,5 @@ msg.slice(0,5)//"hello"
 msg.replace("JavaScript","JS")//"hello, JS!"
 msg.split(",")//["hello", " JavaScript!"]
 " hi ".trim()//"hi"
+console.log("The length of the message is: " + msg.length);
+console.log( msg.toUpperCase());
