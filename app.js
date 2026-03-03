@@ -48,3 +48,26 @@ const html =
 //Any expression works inside ${}
 const total = `price: ${(12.99 * 3).toFixed(2)}`;
 console.log("The length of the message is: "+ msg2.length);
+// if/else if/else
+    const score1 = 75;
+    if (score1 >= 90) {
+        console.log("A");
+    } else if (score1 >= 80) {
+        console.log("B");
+    } else if (score1 >= 70) {
+        console.log("C");
+    } else {    
+        console.log("below c");
+    }
+    //switch - great for exact matches
+    const day = "Monday";   
+switch (day) {
+    case "Monday":
+        console.log("Start of the week");
+        break;
+    case "Friday":
+        console.log("TGIFI");
+        break;
+    default:
+        console.log("Midweek");
+}   
